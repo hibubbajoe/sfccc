@@ -6,9 +6,14 @@ body {
 
 .sfcccLogo,
 .sommarTurreLogo,
-.streetsOfNewCapennaLogo {
+.streetsOfNewCapennaLogo{
   width: 300px;
   margin-bottom: 24px;
+}
+.Date{
+  width: 300px;
+  margin-bottom: -100px;
+  margin-top: -100px;
 }
 
 .logoWrapper {
@@ -36,8 +41,8 @@ body {
 }
 
 .signUpButton {
-  width: 200px;
-  margin-bottom: 16px;
+  width: 400px;
+
 }
 
 @media (min-width: 768px) {
@@ -60,8 +65,9 @@ body {
 
   .sfcccLogo,
   .sommarTurreLogo,
-  .streetsOfNewCapennaLogo {
+  .streetsOfNewCapennaLogo{
     width: 400px;
     margin-bottom: 24px;
   }
 }
+

@@ -194,9 +194,8 @@ const SignupForm = ({ showSignupForm, setShowSignupForm }) => {
                   fontSize: "12px",
                 }}
               >
-                För att säkra din plats i turneringen så kan du swisha redan nu
-                så får du en bekräftelse på mailen så snart vi har hanterat
-                ärendet.
+                För att få en plats i turneringen så swisha enligt QR-koden
+                så får du en bekräftelse på mailen så snart vi har bekräftat din betalning.
               </DialogContentText>
               <div
                 style={{
@@ -223,7 +222,7 @@ const SignupForm = ({ showSignupForm, setShowSignupForm }) => {
                     textAlign: "center",
                   }}
                 >
-                  Ni kan även ladda ner Companion Appen som vi kommer använda
+                  Ladda även ner Companion Appen som vi kommer använda
                   oss av under turneringen.
                 </div>
                 <div

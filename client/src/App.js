@@ -3,6 +3,7 @@ import "./App.css";
 import SignupForm from "./SignupForm";
 import SignupButton from "./images/signupButton.png";
 import SfcccLogo from "./images/sfcccLogo.png";
+import date from "./images/268.png";
 import SommarTurreLogo from "./images/SommarTurreLogo.png";
 import StreetsOfNewCapennaLogo from "./images/streetsOfNewCapennaLogo.webp";
 
@@ -23,6 +24,10 @@ function App() {
           />
         </div>
       </div>
+        <div>
+            <img src={date} className={"Date"} alt="date" />
+        </div>
+
 
       <input
         className="signUpButton"
