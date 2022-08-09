@@ -11,7 +11,7 @@ body {
   margin-bottom: 24px;
 }
 .Date{
-  width: 300px;
+  width: 200px;
   margin-bottom: -100px;
   margin-top: -100px;
 }
@@ -41,7 +41,7 @@ body {
 }
 
 .signUpButton {
-  width: 400px;
+  width: 300px;
 
 }
 
@@ -69,5 +69,11 @@ body {
     width: 400px;
     margin-bottom: 24px;
   }
+  .Date{
+    width: 200px;
+    margin-bottom: -50px;
+    margin-top: -20px;
+  }
+
 }
 
