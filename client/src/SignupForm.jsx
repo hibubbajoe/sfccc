@@ -13,6 +13,7 @@ import {
 } from "@mui/material/";
 import { googleSheetsUrl } from "./consants";
 import SfcccLogo from "./images/sfcccLogo.png";
+import swishQR from "./images/swishQR.png";
 import AppleStoreBadge from "./AppleStoreBadge";
 import GoogleStoreBadge from "./GoogleStoreBadge";
 
@@ -25,6 +26,7 @@ const SignupForm = ({ showSignupForm, setShowSignupForm }) => {
     phoneNumber: "",
     email: "",
   });
+  const [checkBoxCheck, setCheckBoxCheck] = React.useState(false);
 
   const [showConfirmation, setShowConfirmation] = React.useState(false);
 
@@ -138,7 +140,12 @@ const SignupForm = ({ showSignupForm, setShowSignupForm }) => {
                   </Grid>
                   <Grid item xs={12} marginBottom="16px">
                     <FormControlLabel
-                      control={<Checkbox value="allowExtraEmails" />}
+                      control={
+                        <Checkbox
+                          value="allowExtraEmails"
+                          onClick={() => setCheckBoxCheck(!checkBoxCheck)}
+                        />
+                      }
                       label={
                         <Typography sx={{ fontSize: "12px" }}>
                           Vi kommer bara använda din data för det syfte det är
@@ -157,7 +164,7 @@ const SignupForm = ({ showSignupForm, setShowSignupForm }) => {
                     item
                     variant="outlined"
                     color="inherit"
-                    sx={{ mt: 3, mb: 2 }}
+                    sx={{ mt: 3, mb: 2, width: "150px" }}
                     onClick={() => setShowSignupForm(false)}
                   >
                     Gå tillbaka
@@ -167,7 +174,8 @@ const SignupForm = ({ showSignupForm, setShowSignupForm }) => {
                     type="submit"
                     variant="contained"
                     color="success"
-                    sx={{ mt: 3, mb: 2 }}
+                    disabled={!checkBoxCheck}
+                    sx={{ mt: 3, mb: 2, width: "150px" }}
                   >
                     Skriv upp dig
                   </Button>
@@ -181,13 +189,25 @@ const SignupForm = ({ showSignupForm, setShowSignupForm }) => {
               </Typography>
               <DialogContentText
                 sx={{
+                  textAlign: "center",
                   margin: "16px 0",
                   fontSize: "12px",
                 }}
               >
-                Vi kommer höra av oss på mail när det börjar närma sig showtime
-                🤩
+                För att säkra din plats i turneringen så kan du swisha redan nu
+                så får du en bekräftelse på mailen så snart vi har hanterat
+                ärendet.
               </DialogContentText>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  marginBottom: "16px",
+                }}
+              >
+                <img src={swishQR} height="200" alt="appleStoreButton" />
+              </div>
               <div
                 style={{
                   display: "flex",
@@ -198,10 +218,13 @@ const SignupForm = ({ showSignupForm, setShowSignupForm }) => {
               >
                 <div
                   style={{
+                    fontSize: "14px",
                     marginBottom: "16px",
+                    textAlign: "center",
                   }}
                 >
-                  Glöm inte att ladda ner Companion Appen
+                  Ni kan även ladda ner Companion Appen som vi kommer använda
+                  oss av under turneringen.
                 </div>
                 <div
                   style={{
