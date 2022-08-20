@@ -4,18 +4,21 @@ body {
   font-family: "Kdam Thmor Pro", sans-serif;
 }
 
-.sfcccLogo,
-.sommarTurreLogo,
-.streetsOfNewCapennaLogo{
-  width: 300px;
-  margin-bottom: 24px;
+/*.sfcccLogo,*/
+/*.sommarTurreLogo,*/
+/*.streetsOfNewCapennaLogo{*/
+/*  width: 300px;*/
+/*  margin-bottom: 24px;*/
+/*}*/
+/*.Date{*/
+/*  width: 200px;*/
+/*  margin-bottom: -100px;*/
+/*  margin-top: -100px;*/
+/*}*/
+.banner{
+  width: 1080px;
+  height: 100%;
 }
-.Date{
-  width: 200px;
-  margin-bottom: -100px;
-  margin-top: -100px;
-}
-
 .logoWrapper {
   height: 100%;
   margin-top: 140px;
@@ -39,11 +42,19 @@ body {
   grid-gap: 16px;
   margin-bottom: 30px;
 }
-
 .signUpButton {
-  width: 300px;
+  width: 290px;
+  opacity: 0.8;
+
 
 }
+
+.signUpButton:hover {
+  width: 300px;
+  opacity: 1;
+
+}
+
 
 @media (min-width: 768px) {
   .container {
@@ -52,7 +63,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background: url("./images/desktopBG.jpeg");
+    background: url("./images/dominariaBackground.jpeg");
     background-size: cover;
     background-repeat: "no-repeat";
     background-position: "center center";
@@ -67,7 +78,7 @@ body {
   .sommarTurreLogo,
   .streetsOfNewCapennaLogo{
     width: 400px;
-    margin-bottom: 24px;
+    margin-bottom: 100px;
   }
   .Date{
     width: 200px;

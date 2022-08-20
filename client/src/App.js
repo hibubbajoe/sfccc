@@ -5,28 +5,35 @@ import SignupButton from "./images/signupButton.png";
 import SfcccLogo from "./images/sfcccLogo.png";
 import date from "./images/268.png";
 import SommarTurreLogo from "./images/SommarTurreLogo.png";
-import StreetsOfNewCapennaLogo from "./images/streetsOfNewCapennaLogo.webp";
+import StreetsOfNewCapennaLogo from "./images/domLogo.png";
 
 function App() {
   const [showSignupForm, setShowSignupForm] = React.useState(false);
 
   return (
     <div className="container">
+        {/*<div>*/}
+        {/*  <img*/}
+        {/*    src={SommarTurreLogo}*/}
+        {/*    className={"sommarTurreLogo"}*/}
+        {/*    alt="sommar-turnering-2022"*/}
+        {/*  />*/}
+        {/*</div>*/}
       <div className="logoWrapper">
         <div>
           <img src={SfcccLogo} className={"sfcccLogo"} alt="sfccc-logo" />
         </div>
-        <div>
-          <img
-            src={SommarTurreLogo}
-            className={"sommarTurreLogo"}
-            alt="sommar-turnering-2022"
-          />
-        </div>
+        {/*<div>*/}
+        {/*  <img*/}
+        {/*    src={SommarTurreLogo}*/}
+        {/*    className={"sommarTurreLogo"}*/}
+        {/*    alt="sommar-turnering-2022"*/}
+        {/*  />*/}
+        {/*</div>*/}
       </div>
-        <div>
-            <img src={date} className={"Date"} alt="date" />
-        </div>
+        {/*<div>*/}
+        {/*    <img src={date} className={"Date"} alt="date" />*/}
+        {/*</div>*/}
 
 
       <input
