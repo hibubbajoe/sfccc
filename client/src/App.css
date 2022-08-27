@@ -4,11 +4,14 @@ body {
   font-family: "Kdam Thmor Pro", sans-serif;
 }
 
+.championShipLogo {
+  width: 35rem;
+}
+
 .sfcccLogo,
-.sommarTurreLogo,
-.streetsOfNewCapennaLogo {
+.setLogo {
   width: 300px;
-  margin-bottom: 24px;
+  margin-bottom: 70px;
 }
 
 .logoWrapper {
@@ -22,10 +25,11 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  background: url("./images/mobileBG.jpeg");
+  background: url("./images/dominaria-mobile-background.jpeg");
   background-size: cover;
-  background-repeat: "no-repeat";
-  background-position: "center center";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
 }
 
 .buttonController {
@@ -47,10 +51,15 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background: url("./images/desktopBG.jpeg");
+    background: url("./images/dominaria-desktop-background.jpeg");
     background-size: cover;
-    background-repeat: "no-repeat";
-    background-position: "center center";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+
+  .championShipLogo {
+    width: 30rem;
   }
 
   .logoWrapper {
@@ -60,8 +69,12 @@ body {
 
   .sfcccLogo,
   .sommarTurreLogo,
-  .streetsOfNewCapennaLogo {
+  .setLogo {
     width: 400px;
-    margin-bottom: 24px;
+    margin-bottom: 70px;
+  }
+
+  .signUpButton:hover {
+    transform: scale(120%);
   }
 }

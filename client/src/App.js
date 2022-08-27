@@ -3,8 +3,8 @@ import "./App.css";
 import SignupForm from "./SignupForm";
 import SignupButton from "./images/signupButton.png";
 import SfcccLogo from "./images/sfcccLogo.png";
-import SommarTurreLogo from "./images/SommarTurreLogo.png";
-import StreetsOfNewCapennaLogo from "./images/streetsOfNewCapennaLogo.webp";
+import championShipLogo from "./images/champion-2022.png";
+import setLogo from "./images/dominaria-logo.png";
 
 function App() {
   const [showSignupForm, setShowSignupForm] = React.useState(false);
@@ -12,13 +12,13 @@ function App() {
   return (
     <div className="container">
       <div className="logoWrapper">
-        <div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
           <img src={SfcccLogo} className={"sfcccLogo"} alt="sfccc-logo" />
         </div>
-        <div>
+        <div style={{ marginBottom: "50px" }}>
           <img
-            src={SommarTurreLogo}
-            className={"sommarTurreLogo"}
+            src={championShipLogo}
+            className={"championShipLogo"}
             alt="sommar-turnering-2022"
           />
         </div>
@@ -33,11 +33,7 @@ function App() {
       />
 
       <div>
-        <img
-          src={StreetsOfNewCapennaLogo}
-          className="streetsOfNewCapennaLogo"
-          alt="streets-of-new-capenna-logo"
-        />
+        <img src={setLogo} className="setLogo" alt="set-logo" />
       </div>
       {showSignupForm && (
         <SignupForm
