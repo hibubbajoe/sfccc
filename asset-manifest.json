@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.20345d14.css",
+    "main.js": "/react-gh-pages/static/js/main.549519af.js",
+    "static/media/dominaria-desktop-background.jpeg": "/react-gh-pages/static/media/dominaria-desktop-background.f97665a1d8ef9f013625.jpeg",
+    "static/media/GoogleBadge.png": "/react-gh-pages/static/media/GoogleBadge.a1220d37780c7cb6af69.png",
+    "static/media/swishQR.png": "/react-gh-pages/static/media/swishQR.ec3e6d7973eaa13fecf4.png",
+    "static/media/sfcccLogo.png": "/react-gh-pages/static/media/sfcccLogo.e974b884aee7c5945577.png",
+    "static/media/champion-2022.png": "/react-gh-pages/static/media/champion-2022.93eaba681468b1efa25d.png",
+    "static/media/AppleBadge.png": "/react-gh-pages/static/media/AppleBadge.9e5ae6b71bce9f60db6d.png",
+    "static/media/dominaria-logo.png": "/react-gh-pages/static/media/dominaria-logo.eec99803db4f474b23cc.png",
+    "static/media/dominaria-mobile-background.jpeg": "/react-gh-pages/static/media/dominaria-mobile-background.114694ff28f5bf0d5316.jpeg",
+    "static/media/signupButton.png": "/react-gh-pages/static/media/signupButton.35be0aa03f285e2a1944.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.20345d14.css.map": "/react-gh-pages/static/css/main.20345d14.css.map",
+    "main.549519af.js.map": "/react-gh-pages/static/js/main.549519af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20345d14.css",
+    "static/js/main.549519af.js"
+  ]
+}
