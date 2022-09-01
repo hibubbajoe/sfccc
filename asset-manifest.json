@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.3816123d.css",
-    "main.js": "./static/js/main.e73aac56.js",
+    "main.css": "./static/css/main.b8a891aa.css",
+    "main.js": "./static/js/main.ae744d44.js",
     "static/media/dominaria-desktop-background.jpeg": "./static/media/dominaria-desktop-background.f97665a1d8ef9f013625.jpeg",
     "static/media/GoogleBadge.png": "./static/media/GoogleBadge.a1220d37780c7cb6af69.png",
     "static/media/swishQR.png": "./static/media/swishQR.ec3e6d7973eaa13fecf4.png",
@@ -12,11 +12,11 @@
     "static/media/dominaria-mobile-background.jpeg": "./static/media/dominaria-mobile-background.114694ff28f5bf0d5316.jpeg",
     "static/media/signupButton.png": "./static/media/signupButton.35be0aa03f285e2a1944.png",
     "index.html": "./index.html",
-    "main.3816123d.css.map": "./static/css/main.3816123d.css.map",
-    "main.e73aac56.js.map": "./static/js/main.e73aac56.js.map"
+    "main.b8a891aa.css.map": "./static/css/main.b8a891aa.css.map",
+    "main.ae744d44.js.map": "./static/js/main.ae744d44.js.map"
   },
   "entrypoints": [
-    "static/css/main.3816123d.css",
-    "static/js/main.e73aac56.js"
+    "static/css/main.b8a891aa.css",
+    "static/js/main.ae744d44.js"
   ]
 }
