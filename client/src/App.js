@@ -15,7 +15,13 @@ function App() {
         <div style={{ display: "flex", justifyContent: "center" }}>
           <img src={SfcccLogo} className={"sfcccLogo"} alt="sfccc-logo" />
         </div>
-        <div style={{ marginBottom: "50px" }}>
+        <div
+          style={{
+            marginBottom: "50px",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
           <img
             src={championShipLogo}
             className={"championShipLogo"}
